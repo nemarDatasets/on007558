@@ -1,0 +1,6 @@
+{
+  "Name": "EEG Pre/Post Intervention Dataset",
+  "BIDSVersion": "1.8.0",
+  "DatasetType": "raw",
+  "Authors": ["Mengsha Qi"]
+}
