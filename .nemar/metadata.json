@@ -1,27 +1,72 @@
 {
   "version": "2.0",
-  "dataset_id": "on007558",
-  "source": "openneuro",
-  "source_id": "ds007558",
+  "pipeline_stage": "enriched",
   "title": "EEG Pre/Post Intervention Dataset",
+  "license": "CC0",
+  "dataset_type": "raw",
   "authors": {
     "Mengsha Qi": {}
   },
-  "license": "CC0",
-  "dataset_type": "raw",
   "related_identifiers": [
     {
       "identifier": "10.18112/openneuro.ds007558.v1.0.0",
       "identifier_type": "DOI",
       "relation_type": "IsIdenticalTo"
+    },
+    {
+      "identifier": "https://github.com/nemarDatasets/on007558",
+      "identifier_type": "URL",
+      "relation_type": "IsDescribedBy"
+    },
+    {
+      "identifier": "https://nemar.org/dataset/on007558",
+      "identifier_type": "URL",
+      "relation_type": "IsDescribedBy"
+    },
+    {
+      "identifier": "10.18112/openneuro.ds007558",
+      "identifier_type": "DOI",
+      "relation_type": "IsVersionOf"
     }
   ],
-  "pipeline_stage": "seeded",
-  "bids_version": "1.8.0",
-  "recording_modality": [
+  "resource_type_general": "Dataset",
+  "modalities": [
     "eeg"
   ],
-  "datatypes": [
-    "eeg"
-  ]
+  "resource_type_specific": "EEG Dataset",
+  "sizes": [
+    "349.9 MB (59 files)"
+  ],
+  "formats": [
+    ".edf",
+    ".json",
+    ".md",
+    ".tsv"
+  ],
+  "description": "This dataset comprises EEG recordings from a longitudinal intervention study designed to investigate neural activity changes across pre- and post-intervention timepoints. The study includes multiple participant groups with standardized BIDS-compliant organization, enabling comparative analyses of electrophysiological markers before and after intervention. The data are suitable for functional connectivity studies and pre/post intervention comparisons.",
+  "methods_description": "EEG data were recorded using standard acquisition systems with parameters documented in JSON sidecar files accompanying each recording. The dataset includes pre-intervention and post-intervention sessions organized by participant group, with events files provided for temporal annotation of experimental conditions. Participants were divided into three groups (Group 1, Group 2, Group 3) to evaluate potential differences in intervention outcomes. Data have been reorganized into BIDS format with standardized file naming and metadata structure.",
+  "keywords": [
+    {
+      "term": "EEG"
+    },
+    {
+      "term": "electroencephalography"
+    },
+    {
+      "term": "intervention study"
+    },
+    {
+      "term": "longitudinal design"
+    },
+    {
+      "term": "pre-post comparison"
+    },
+    {
+      "term": "functional connectivity"
+    },
+    {
+      "term": "neural activity"
+    }
+  ],
+  "source_hash": "d6bf36f1e7d9e0426bc7d8431eb26e1abb967e212c6e1b10610eff5e95f12701"
 }
