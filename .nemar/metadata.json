@@ -1,8 +1,8 @@
 {
   "version": "2.0",
-  "pipeline_stage": "enriched",
+  "pipeline_stage": "validated",
   "title": "EEG Pre/Post Intervention Dataset",
-  "description": "This dataset comprises EEG recordings from a pre/post intervention study investigating neural activity changes across multiple participant groups. The data are organized according to the Brain Imaging Data Structure (BIDS) specification and include pre-intervention and post-intervention sessions for each participant, enabling comparative analysis of intervention effects on electrophysiological measures.",
+  "description": "This dataset comprises EEG recordings collected from participants across multiple groups, assessed at pre- and post-intervention timepoints. It was designed to investigate changes in neural activity associated with an intervention, organized following the BIDS specification for interoperability. The dataset supports analyses such as EEG signal processing, functional connectivity, and pre/post comparisons.",
   "methods_description": "EEG data were recorded using standard acquisition systems. Recordings are organized by participant and session (pre/post intervention), with detailed acquisition parameters provided in JSON sidecar files accompanying each EEG recording.",
   "license": "CC0",
   "dataset_type": "raw",
@@ -14,15 +14,13 @@
       "term": "EEG"
     },
     {
-      "term": "Electroencephalography",
-      "subject_scheme": "MeSH",
-      "value_uri": "http://id.nlm.nih.gov/mesh/D004569"
+      "term": "intervention"
     },
     {
-      "term": "intervention study"
+      "term": "functional connectivity"
     },
     {
-      "term": "pre-post design"
+      "term": "BIDS"
     },
     {
       "term": "neural activity"
